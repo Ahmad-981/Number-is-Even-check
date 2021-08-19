@@ -12,13 +12,14 @@ This code checks whether the number is even or not
     cin >> number;
   
     if (number % 2 == 0)
-     {
+    {
       cout << " The entered number is EVEN \n";
     }
   
    else
+   {
       cout << " The entered number is NOT EVEN \n"
-    
+   } 
     return 0;
   }
   
